@@ -1,0 +1,26 @@
+.aside__search
+	margin-bottom: 30px
+
+.aside__list
+	overflow-y: auto
+	max-height: 491px
+	margin-right: -5px
+	margin-bottom: 30px
+	&:hover
+		&::-webkit-scrollbar
+			background-color: rgba(0,0,0,.1)
+		&::-webkit-scrollbar-thumb
+			background-color: #ccc
+	&::-webkit-scrollbar
+		width: 4px
+		transform: translate(-4px, 0)
+		border-radius: 2px
+		background-color: rgba(0,0,0,0)
+	&::-webkit-scrollbar-thumb
+		border-radius: 2px
+		background-color: transparent
+
+.aside__item
+	&:focus
+		outline: none
+
